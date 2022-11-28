@@ -29,10 +29,10 @@ export default function App() {
 
   return (
     <Router>
-      <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
+      <Navbar collapseOnSelect expand='lg' bg='light' variant='primary'>
         <Container>
           <Navbar.Brand href='/'>
-            <img src={BlockVoteLogo}></img>
+            <h3>Polling System</h3>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
